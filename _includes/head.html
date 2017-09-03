@@ -45,6 +45,13 @@
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ site.url }}/assets/css/toc.css">
+    <script src="{{ site.url }}/js/jquery.tocLight.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+          $.toc.clickHideButton();
+        });
+    </script>
     <!-- Background Image -->
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
