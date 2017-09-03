@@ -21,7 +21,10 @@ layout: compress
                         <i class="fa fa-chevron-left"></i>
                     </a>
                 </div>
-                {{ content | toc_generate }}
+		<div id="post">
+		<aside id="toc"></aside>
+                {{ content }}
+		</div>
             </div>
         </div>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}

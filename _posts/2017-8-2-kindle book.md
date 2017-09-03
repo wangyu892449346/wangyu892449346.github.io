@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Kindle ebook"
-date:   2017-08-02 17:04:37 +0800
-tag: Kindle
+title:  "Kindle book"
+date:   2017-08-17 11:00:11 +0800
+tag: [Kindle]
 ---
+
 # 大数据
 
  - 《[大数据时代：生活,工作与思维的大变革](https://github.com/wangyu892449346/kindle-book/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%97%B6%E4%BB%A3%EF%BC%9A%E7%94%9F%E6%B4%BB%2C%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%80%9D%E7%BB%B4%E7%9A%84%E5%A4%A7%E5%8F%98%E9%9D%A9.mobi)》
