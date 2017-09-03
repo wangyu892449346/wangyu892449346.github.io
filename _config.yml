@@ -9,9 +9,9 @@ reading_time:       true
 # 每分钟阅读量
 words_per_minute:   180
 # 博客的logo地址
-logo:               'http://i.niupic.com/images/2017/09/03/iCNqPA.png'
+logo:               'https://i.niupic.com/images/2017/09/03/oJoVQO.png'
 # 博客背景地址
-background:         'http://i.niupic.com/images/2017/09/03/0mWhdr.jpg'
+background:         'https://i.niupic.com/images/2017/09/03/0mWhdr.jpg'
 # Set this true if you want to tile your background image, otherwise it will be covered
 tiled_bg:           true  
 # 语言环境
