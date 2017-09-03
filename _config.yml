@@ -17,6 +17,7 @@ tiled_bg:           true
 # 语言环境
 locale:             zh_CN
 url:                https://wangyu892449346.github.io #这个是主界面自己名称的超链接
+# 这个用于本地的链接
 # url:		    http://localhost:4000
 
 # Jekyll
