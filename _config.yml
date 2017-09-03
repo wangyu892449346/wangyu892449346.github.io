@@ -1,0 +1,84 @@
+# Site
+title:              Notzuonotdied  # 页面的标题 
+# 博客的地址
+bio:                '<a href="http://blog.csdn.net/notzuonotdied">总有一天，走过的路上定是百花齐放，因为汗水是不会骗人的！</a>'
+# 博客首页的简介
+description:        "总有一天，走过的路上定是百花齐放，因为汗水是不会骗人的！"
+# 是否开启所需阅读时间
+reading_time:       true
+# 每分钟阅读量
+words_per_minute:   180
+# 博客的logo地址
+logo:               'http://i.niupic.com/images/2017/09/03/iCNqPA.png'
+# 博客背景地址
+background:         'http://i.niupic.com/images/2017/09/03/0mWhdr.jpg'
+# Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           true  
+# 语言环境
+locale:             zh_CN
+url:                https://wangyu892449346.github.io #这个是主界面自己名称的超链接
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  input:            GFM
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   Notzuonotdied
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+#twitter:            username
+#facebook:           username
+#github-url:         username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
