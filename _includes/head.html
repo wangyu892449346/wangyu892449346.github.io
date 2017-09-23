@@ -42,8 +42,8 @@
     <script type="text/javascript">
     window.onload = function(){
       new Toc( 'post',{
-	'position':'fixed',      
-	'level':3,
+        'position':'fixed',      
+        'level':3,
         'class':'toc',
         'targetId':'toc'
       });
@@ -62,7 +62,9 @@
     <!-- 如果没有包含http或者https的话，就重新设置下。 -->
     {% unless background contains 'http://' or background contains 'https://' %}
     {% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
+    <style type="text/css">body 
+      {background:url( {{ background }} ) no-repeat center center fixed;  -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover; }
+    </style>
     {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}
