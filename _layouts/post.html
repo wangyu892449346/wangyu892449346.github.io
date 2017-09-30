@@ -11,6 +11,7 @@ layout: compress
 </head>
 <body>
     {% include nav.html %}
+    {% include leancloud-analytics.html %}
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
@@ -22,7 +23,16 @@ layout: compress
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>
                       {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
+                    </p>
+                    <!-- /.entry-reading-time -->
+                    {% if site.leancloud.enable %}
+                    {% if site.leancloud.enable %}
+                    <p id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+                        <span class="reading-time post-meta-item-text"> Hits:  </span>
+                        <span class="leancloud-visitors-count"></span>
+                    </p>
+                {% endif %}
+                    {% endif %}
                     {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">

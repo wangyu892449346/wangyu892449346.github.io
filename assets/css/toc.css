@@ -43,3 +43,16 @@
 #toc-container {
 	margin-bottom: 10px;
 }
+
+.post-meta-divider {
+    font-size: 13px;
+    color: #C6BDBF;
+}
+.post-meta-item-text {
+    font-size: 13px;
+    color: #C6BDBF;
+}
+.leancloud-visitors-count{
+    font-size: 13px;
+    color: #C6BDBF;
+}
