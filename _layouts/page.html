@@ -27,11 +27,7 @@ layout: compress
                 </div>
                 <div id="post">
                     <!-- 生成目录 -->
-                    {% if page.title != 'Tag Archive' %}
-                    {% if post.title != 'Tag Archive' %}
-                    <aside id="toc"></aside>
-                    {% endif %}
-                    {% endif %}
+                    <div id="toc"></div>
                     {{ content }}
                 </div>
             </div>
