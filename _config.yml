@@ -41,11 +41,14 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+# Comments
+disqus_shortname:   Notzuonotdied
+
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-113885352-1
   #verify:
   #ad-client:
   #ad-slot:
