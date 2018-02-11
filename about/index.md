@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About the Theme
+title: About
 tags: [about]
 date: 2017-09-03
-comments: false
+comments: true
 ---
     
 <center>这个博客是个另外的一个记载我的一些东西的博客，我还有其他的博客——<a href="http://blog.csdn.net/notzuonotdied?viewmode=list"><b>CSDN</b></a>。欢迎各位大佬访问。</center>
@@ -15,10 +15,15 @@ comments: false
 ## 内容
 
 　　这个博客是我的随想博客，放置以下内容：
+
 * 我阅读过的书籍的书摘。
 * 一些工具的介绍和链接。
 * 一些自己的感悟。
 * 还有一些奇奇怪怪的东西～O(∩_∩)O
+
+## 近况
+
+ - 最近在准备校招，想要一起刷算法的小伙伴，可以一起啊。
 
 ## Getting Started
       

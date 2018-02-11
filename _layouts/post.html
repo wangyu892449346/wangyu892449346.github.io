@@ -52,7 +52,7 @@ layout: compress
             </div>
         </div>
         <!-- 将page.comments修改为true，默认显示评论。 -->
-        {% if true and site.disqus_shortname %}
+        {% if site.comments and site.disqus_shortname %}
         <section id="disqus_thread" class="animated fadeInUp"></section>
         <!-- /#disqus_thread -->
         {% endif %}
